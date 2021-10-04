@@ -25,6 +25,7 @@
     padding-top: 1rem;
     width: 100%;
 }
+.menu{display: none;}
 
 .logo img{
     width: 70px;
@@ -190,7 +191,16 @@ span{
 
 @media screen and (min-width:360px) and (max-width:420px) {
     .header{
-        display:none;
+        padding-right: 1rem;
+    }
+
+    .menu{
+        display:flex;
+        width: 50px;
+    }
+
+    .language{
+        display: none;
     }
 
     .right{
@@ -246,7 +256,15 @@ span{
 
 @media screen and (min-width:421px) and (max-width:768px) {
     .header{
-        display:none;
+        padding-right: 1rem;
+    }
+
+    .menu{
+        display:flex;
+        width: 60px;
+    }
+    .language{
+        display: none;
     }
 
     .right{

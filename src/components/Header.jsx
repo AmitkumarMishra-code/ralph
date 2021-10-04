@@ -6,6 +6,7 @@ export default function Header() {
                 <p>Ralph<span>.</span></p>
             </div>
             <p className = "language">German</p>
+            <img className = "menu" src="/menu.svg" alt="menu" />
         </div>
     )
 }
